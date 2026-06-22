@@ -1,0 +1,4 @@
+interface:
+  display_name: "Awesome Markdown"
+  short_description: "Create rich GitHub README displays"
+  default_prompt: "Use $awesome-markdown to create a rich GitHub README with badges, diagrams, tables, alerts, math, media, and collapsible details."
