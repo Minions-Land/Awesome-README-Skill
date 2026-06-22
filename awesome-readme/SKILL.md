@@ -1,6 +1,6 @@
 ---
 name: awesome-readme
-description: Create, improve, or audit beautiful GitHub README component libraries and README snippets. Use when Codex needs renderer-safe GitHub README components such as badges, hero images, link bars, alerts, Mermaid diagrams, tables, collapsible details, media, code blocks, math, task lists, sponsor/logo grids, keyboard tags, anchors, GitHub metadata cards, GeoJSON/TopoJSON/STL previews, and limited HTML. Focus on components that render inside GitHub README.md, not full documentation-site layout systems.
+description: Create, improve, or audit beautiful GitHub README component libraries and README snippets. Use when Codex needs renderer-safe GitHub README components such as badges, hero images, link bars, alerts, Mermaid diagrams, tables, collapsible details, media, code blocks, MDX snippets as displayed examples, math, task lists, sponsor/logo grids, keyboard tags, anchors, GitHub metadata cards, GeoJSON/TopoJSON/STL previews, and limited HTML. Focus on components that render inside GitHub README.md, not full documentation-site layout systems.
 ---
 
 # Awesome README
@@ -17,7 +17,7 @@ Prioritize components that render directly in GitHub README files:
 - Mermaid diagrams
 - Markdown tables and HTML table grids
 - Collapsible `<details>` sections
-- Syntax-highlighted code blocks, diff blocks, and terminal blocks
+- Syntax-highlighted code blocks, diff blocks, terminal blocks, and displayed MDX snippets
 - Math blocks
 - Task lists
 - Keyboard tags and anchor links
@@ -41,6 +41,7 @@ Prioritize components that render directly in GitHub README files:
 ## Compatibility Rules
 
 - Do not rely on JavaScript, iframes, external CSS, or runtime widgets in README.md.
+- Treat MDX as a displayed code example in README.md. Do not imply that JSX components execute inside GitHub README rendering.
 - Prefer local assets for screenshots, hero art, diagrams, and GIFs.
 - Use external URLs mainly for stable badge services or GitHub-native links.
 - Include clear alt text for images.

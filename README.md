@@ -4,6 +4,7 @@
   <img alt="GitHub README" src="https://img.shields.io/badge/GitHub-README-181717?logo=github">
   <img alt="MIT License" src="https://img.shields.io/badge/license-MIT-blue">
   <img alt="Mermaid" src="https://img.shields.io/badge/Mermaid-supported-ff3670">
+  <img alt="MDX" src="https://img.shields.io/badge/MDX-snippets-fcb32c">
   <img alt="Renderer safe" src="https://img.shields.io/badge/renderer-safe-2da44e">
   <img alt="Component library" src="https://img.shields.io/badge/components-library-8250df">
 </p>
@@ -16,6 +17,7 @@
   <a href="#badge-row">Badges</a> |
   <a href="#alerts">Alerts</a> |
   <a href="#mermaid">Mermaid</a> |
+  <a href="#mdx-snippet">MDX</a> |
   <a href="#tables">Tables</a> |
   <a href="#media">Media</a> |
   <a href="#special-renderers">Special Renderers</a> |
@@ -129,6 +131,7 @@ timeline
 | Badge | Yes | Status and metadata | Too many colors |
 | Alert | Yes | Important notes | Long paragraphs |
 | Mermaid | Yes | Diagrams | Dense architecture maps |
+| MDX snippet | Yes, as code | Docs-site examples | Claiming JSX executes |
 | GIF | Yes | Short demos | Huge files |
 | iframe | No | Use GitHub Pages | README embeds |
 
@@ -180,13 +183,32 @@ npm create nova-widget@latest
 {
   "name": "nova-widgets-demo",
   "private": true,
-  "readmeComponents": ["badges", "alerts", "mermaid"]
+  "readmeComponents": ["badges", "alerts", "mermaid", "mdx-snippet"]
 }
 ```
 
 ```diff
 + add renderer-safe README component
 - remove unsupported iframe example
+```
+
+## MDX Snippet
+
+MDX is useful to document how a component would be written in a docs site. In GitHub README.md, keep it as a fenced code example; the JSX does not execute on the repository page.
+
+```mdx
+import { DemoCard } from './components/DemoCard'
+
+# Nova Widgets
+
+<DemoCard tone="info" title="Simulated MDX Card">
+  This card is an MDX authoring example, not an active README widget.
+</DemoCard>
+
+export const metadata = {
+  status: 'simulated',
+  renderer: 'docs-site'
+}
 ```
 
 ## Math
@@ -295,6 +317,7 @@ endsolid demo_pyramid
 |---|---|
 | Live JavaScript charts | GitHub Pages |
 | iframe demos | Storybook or docs site |
+| Executable MDX components | Docusaurus, Next.js, Storybook, or another MDX pipeline |
 | Custom CSS layouts | MkDocs, Docusaurus, or VitePress |
 | Full navigation systems | Documentation framework |
 

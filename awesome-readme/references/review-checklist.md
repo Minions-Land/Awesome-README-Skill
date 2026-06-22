@@ -13,10 +13,12 @@ Use this checklist before returning a GitHub README component library or compone
 
 - Code fences are balanced and labeled.
 - Mermaid examples are original and not copied from user input.
+- MDX examples are fenced code snippets and do not claim to execute in README.md.
 - GeoJSON and TopoJSON snippets are valid JSON.
 - Local image paths exist.
 - HTML is limited to sanitized display helpers such as `<p>`, `<img>`, `<table>`, `<br>`, `<strong>`, `<a>`, and `<kbd>`.
 - No JavaScript, iframes, external CSS, or hidden runtime dependency is required.
+- JSX/MDX component execution is directed to a docs framework, not GitHub README rendering.
 
 ## Open Source Hygiene
 

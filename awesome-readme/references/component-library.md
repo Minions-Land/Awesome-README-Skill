@@ -156,6 +156,27 @@ npm create nova-widget@latest
 ```
 ````
 
+## MDX Snippet
+
+Use MDX snippets when a README should teach how a docs-site component would be authored. In GitHub README.md, this renders as a code block; the JSX component is not executed.
+
+````md
+```mdx
+import { DemoCard } from './components/DemoCard'
+
+# Nova Widgets
+
+<DemoCard tone="info" title="Simulated MDX Card">
+  This card is an MDX authoring example, not an active README widget.
+</DemoCard>
+
+export const metadata = {
+  status: 'simulated',
+  renderer: 'docs-site'
+}
+```
+````
+
 ## Math
 
 ```md
@@ -265,5 +286,6 @@ endsolid demo_pyramid
 - iframes
 - custom CSS files
 - runtime charts that require JavaScript
+- executable MDX/JSX components inside README.md
 - private hotlinked images
 - widgets that only render in a documentation site
