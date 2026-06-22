@@ -1,0 +1,4 @@
+interface:
+  display_name: "Awesome README"
+  short_description: "Build rich GitHub README components"
+  default_prompt: "Use $awesome-readme to create a component-level GitHub README gallery with badges, alerts, diagrams, media, tables, math, and renderer-safe HTML."

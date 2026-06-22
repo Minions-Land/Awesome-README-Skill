@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="360" viewBox="0 0 960 360" role="img" aria-labelledby="title desc">
+  <title id="title">Simulated README component gallery</title>
+  <desc id="desc">A simulated GitHub README component gallery with badges, alerts, Mermaid diagrams, media, code, and tables.</desc>
+  <rect width="960" height="360" fill="#f6f8fa"/>
+  <rect x="36" y="28" width="888" height="304" rx="18" fill="#ffffff" stroke="#d0d7de"/>
+  <text x="72" y="76" font-family="Arial, Helvetica, sans-serif" font-size="32" font-weight="700" fill="#24292f">Awesome README Components</text>
+  <text x="72" y="106" font-family="Arial, Helvetica, sans-serif" font-size="15" fill="#57606a">Simulated renderer-safe blocks for GitHub README.md</text>
+
+  <rect x="72" y="134" width="105" height="26" rx="13" fill="#0969da"/>
+  <text x="94" y="152" font-family="Arial, Helvetica, sans-serif" font-size="13" fill="#ffffff">Badges</text>
+  <rect x="188" y="134" width="100" height="26" rx="13" fill="#2da44e"/>
+  <text x="210" y="152" font-family="Arial, Helvetica, sans-serif" font-size="13" fill="#ffffff">Alerts</text>
+  <rect x="300" y="134" width="112" height="26" rx="13" fill="#8250df"/>
+  <text x="322" y="152" font-family="Arial, Helvetica, sans-serif" font-size="13" fill="#ffffff">Mermaid</text>
+  <rect x="424" y="134" width="90" height="26" rx="13" fill="#bf3989"/>
+  <text x="446" y="152" font-family="Arial, Helvetica, sans-serif" font-size="13" fill="#ffffff">Media</text>
+
+  <rect x="72" y="190" width="180" height="86" rx="10" fill="#ddf4ff" stroke="#54aeff"/>
+  <text x="92" y="218" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="700" fill="#0969da">Diagram</text>
+  <circle cx="108" cy="246" r="10" fill="#0969da"/>
+  <line x1="120" y1="246" x2="156" y2="246" stroke="#57606a" stroke-width="3"/>
+  <circle cx="168" cy="246" r="10" fill="#2da44e"/>
+  <line x1="180" y1="246" x2="216" y2="246" stroke="#57606a" stroke-width="3"/>
+  <circle cx="228" cy="246" r="10" fill="#8250df"/>
+
+  <rect x="282" y="190" width="180" height="86" rx="10" fill="#fff8c5" stroke="#d4a72c"/>
+  <text x="302" y="218" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="700" fill="#9a6700">Alert</text>
+  <text x="302" y="248" font-family="Arial, Helvetica, sans-serif" font-size="14" fill="#57606a">NOTE / TIP / WARNING</text>
+
+  <rect x="492" y="190" width="180" height="86" rx="10" fill="#f6f8fa" stroke="#d0d7de"/>
+  <text x="512" y="218" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="700" fill="#24292f">Code</text>
+  <text x="512" y="248" font-family="Menlo, Consolas, monospace" font-size="13" fill="#57606a">npm run preview</text>
+
+  <rect x="702" y="190" width="162" height="86" rx="10" fill="#dafbe1" stroke="#4ac26b"/>
+  <text x="722" y="218" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="700" fill="#1a7f37">Table</text>
+  <line x1="722" y1="237" x2="844" y2="237" stroke="#4ac26b"/>
+  <line x1="722" y1="257" x2="844" y2="257" stroke="#4ac26b"/>
+
+  <line x1="72" y1="300" x2="864" y2="300" stroke="#d8dee4"/>
+  <text x="72" y="322" font-family="Arial, Helvetica, sans-serif" font-size="13" fill="#57606a">Component-level examples only: no JavaScript, iframes, or external CSS required.</text>
+</svg>
