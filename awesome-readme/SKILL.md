@@ -1,13 +1,13 @@
 ---
 name: awesome-readme
-description: Create, improve, or audit beautiful GitHub README component libraries and README snippets. Use when Codex needs renderer-safe GitHub README components such as badges, hero images, link bars, alerts, Mermaid diagrams, tables, collapsible details, media, code blocks, MDX snippets as displayed examples, math, task lists, sponsor/logo grids, keyboard tags, anchors, GitHub metadata cards, GeoJSON/TopoJSON/STL previews, and limited HTML. Focus on components that render inside GitHub README.md, not full documentation-site layout systems.
+description: Create, improve, or audit beautiful GitHub README component libraries and README snippets. Use when Codex needs renderer-safe GitHub README components such as badges, hero images, link bars, alerts, Mermaid diagrams, tables, collapsible details, media, code blocks, MDX snippets as displayed examples, math, task lists, sponsor/logo grids, keyboard tags, anchors, GitHub metadata cards, GeoJSON/TopoJSON/STL previews, and limited HTML. Focus on components that render inside GitHub README.md, not full documentation-site layout systems. Also use it to write or restructure a whole evidence-backed README for a research codebase, ML model, benchmark or tool (results table with baselines, architecture diagram, runnable quick start, optional English + 简体中文 pair).
 ---
 
 # Awesome README
 
 ## Scope
 
-Provide reusable GitHub README components. Do not design a whole documentation flow unless the user asks for it.
+Provide reusable GitHub README components. Do not design a whole documentation flow unless the user asks for it; when they do, follow `references/research-readme-flow.md`.
 
 Prioritize components that render directly in GitHub README files:
 
@@ -36,6 +36,8 @@ Prioritize components that render directly in GitHub README files:
 
 - Read `references/component-library.md` when building or expanding README components.
 - Read `references/review-checklist.md` before finalizing a README or reviewing one.
+- Read `references/research-readme-flow.md` when asked for a whole README (research code, models, tools): reading the repo for evidence, section order, writing rules, bilingual pairs, checklist.
+- Start a whole README from `assets/research-readme-template.md`.
 - Reuse `assets/readme-components.svg` or `assets/demo.gif` only when a repo needs local sample media.
 
 ## Compatibility Rules

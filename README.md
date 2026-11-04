@@ -50,6 +50,8 @@ All examples in this repository are simulated. The sample product name used belo
 | `awesome-readme/SKILL.md` | Compact skill instructions and trigger metadata |
 | `awesome-readme/references/component-library.md` | Component snippets for GitHub README files |
 | `awesome-readme/references/review-checklist.md` | Final compatibility and open-source checklist |
+| `awesome-readme/references/research-readme-flow.md` | Whole-README flow for research code and tools: evidence first, section order, writing rules, checklist |
+| `awesome-readme/assets/research-readme-template.md` | Skeleton for a whole README (results, architecture, data, quick start, layout) |
 | `awesome-readme/assets/` | Local simulated media assets |
 | `LICENSE` | MIT license |
 
